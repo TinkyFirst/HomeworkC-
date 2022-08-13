@@ -12,25 +12,43 @@ namespace classtask
             {
                 Name = "Vlad",
                 Age = 20,
-                Sex = Sex.Man
+                Sex = Sex.Man,
+                City = new City
+                {
+                    Name = "Chernivtsi",
+                    Square = 50000
+                }
+                
             };
             var user2 = new User()
             {
                 Name = "Andrii",
                 Age = 21,
-                Sex = Sex.Man
+                Sex = Sex.Man,
+                City = new City
+                {
+                Name = "Chernivtsi",
+                Square = 50000
+            }
+                
             };
             var user3 = new User()
             {
                 Name = "Julia",
                 Age = 20,
-                Sex = Sex.Woman
+                Sex = Sex.Woman,
+                City = new City
+                {
+                    Name = "Suchava",
+                    Square = 70000
+                }
             };
             var users = new List<User>() { user1, user2, user3 };
             var womanList = GetBySex(users, Sex.Woman);
             var mansList = GetBySex(users, Sex.Man);
             var moreThan21 = GetByAge(users, 21);
             var sortedUsers = SortByAge(users);
+            var selectedCity = selectByCity(users,"Chernivtsi");
             PrintUsers(users);
         }
 
@@ -108,6 +126,20 @@ namespace classtask
                 .ToList();
             
             return sortedUsers;
+        }
+
+        public static List<User> selectByCity(List<User> users, string city)
+        {
+            var selectedCity = new List<User>();
+            foreach (var user in users)
+            {
+                if (user.City.Name == city)
+                {
+                    selectedCity.Add(user);
+                }
+            }
+            return selectedCity;
+
         }
     }
 }
