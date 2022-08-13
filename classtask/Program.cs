@@ -26,21 +26,23 @@ namespace classtask
                 Age = 20,
                 Sex = Sex.Woman
             };
-            PrintUser(user1);
             var users = new List<User>() { user1, user2, user3 };
             var womanList = GetBySex(users, Sex.Woman);
             var mansList = GetBySex(users, Sex.Man);
             var moreThan21 = GetByAge(users, 21);
             var sortedUsers = SortByAge(users);
+            PrintUsers(users);
         }
 
-        public static void PrintUser(User user)
+        public static void PrintUsers(List<User> listUsers)
         {
-            Console.WriteLine(user.Name);
-            Console.WriteLine(user.Id);
-            Console.WriteLine(user.Age);
-            Console.WriteLine(user.Sex); 
-            
+            foreach (var user in listUsers)
+            {
+                Console.WriteLine(user.Name);
+                Console.WriteLine(user.Id);
+                Console.WriteLine(user.Age);
+                Console.WriteLine(user.Sex); 
+            }
         }
 
         /*public static List<User> GetMans(List<User> users)
