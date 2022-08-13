@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/indexx.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/indexx.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/indexx.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/indexx.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/ref/indexx.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/bin/Debug/net5.0/indexx.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/ref/indexx.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/indexx/obj/Debug/net5.0/indexx.genruntimeconfig.cache

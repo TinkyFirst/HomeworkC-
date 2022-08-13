@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/random.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/random.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/random.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/random.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/ref/random.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/bin/Debug/net5.0/random.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/ref/random.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/random/obj/Debug/net5.0/random.genruntimeconfig.cache

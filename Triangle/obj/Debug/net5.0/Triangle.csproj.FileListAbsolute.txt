@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/Triangle.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/Triangle.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/Triangle.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/Triangle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/ref/Triangle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/bin/Debug/net5.0/Triangle.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/ref/Triangle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Triangle/obj/Debug/net5.0/Triangle.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/sumodd.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/sumodd.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/sumodd.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/sumodd.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/ref/sumodd.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/bin/Debug/net5.0/sumodd.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/ref/sumodd.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/sumodd/obj/Debug/net5.0/sumodd.genruntimeconfig.cache

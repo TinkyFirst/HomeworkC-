@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/forCicle.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/forCicle.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/forCicle.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/forCicle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/ref/forCicle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/bin/Debug/net5.0/forCicle.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/ref/forCicle.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/forCicle/obj/Debug/net5.0/forCicle.genruntimeconfig.cache

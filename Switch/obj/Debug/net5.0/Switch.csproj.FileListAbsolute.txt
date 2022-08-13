@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/Switch.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/Switch.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/Switch.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/Switch.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/ref/Switch.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/bin/Debug/net5.0/Switch.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/ref/Switch.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Switch/obj/Debug/net5.0/Switch.genruntimeconfig.cache

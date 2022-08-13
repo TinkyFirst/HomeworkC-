@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/Break.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/Break.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/Break.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/Break.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/ref/Break.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/bin/Debug/net5.0/Break.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/ref/Break.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Break/obj/Debug/net5.0/Break.genruntimeconfig.cache

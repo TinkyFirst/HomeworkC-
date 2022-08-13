@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/classstudy.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/classstudy.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/classstudy.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/classstudy.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/ref/classstudy.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/bin/Debug/net5.0/classstudy.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/ref/classstudy.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classstudy/obj/Debug/net5.0/classstudy.genruntimeconfig.cache

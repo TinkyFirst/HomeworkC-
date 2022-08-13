@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/classtask.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/classtask.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/classtask.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/classtask.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/ref/classtask.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/bin/Debug/net5.0/classtask.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/ref/classtask.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/classtask/obj/Debug/net5.0/classtask.genruntimeconfig.cache

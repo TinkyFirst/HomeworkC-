@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ternar.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ternar.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ternar.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ternar.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ref/ternar.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/bin/Debug/net5.0/ternar.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ref/ternar.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/ternar/obj/Debug/net5.0/ternar.genruntimeconfig.cache

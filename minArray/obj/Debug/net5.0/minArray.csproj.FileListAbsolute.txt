@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/minArray.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/minArray.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/minArray.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/minArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/ref/minArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/bin/Debug/net5.0/minArray.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/ref/minArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/minArray/obj/Debug/net5.0/minArray.genruntimeconfig.cache

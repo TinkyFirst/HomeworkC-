@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/cube.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/cube.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/cube.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/cube.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/ref/cube.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/bin/Debug/net5.0/cube.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/ref/cube.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/cube/obj/Debug/net5.0/cube.genruntimeconfig.cache

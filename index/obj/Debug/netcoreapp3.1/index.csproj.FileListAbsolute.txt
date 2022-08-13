@@ -1,0 +1,13 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/bin/Debug/netcoreapp3.1/index.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/bin/Debug/netcoreapp3.1/index.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/bin/Debug/netcoreapp3.1/index.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/bin/Debug/netcoreapp3.1/index.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/bin/Debug/netcoreapp3.1/index.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/index/obj/Debug/netcoreapp3.1/index.genruntimeconfig.cache

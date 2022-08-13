@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/Array.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/Array.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/Array.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/Array.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/ref/Array.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/bin/Debug/net5.0/Array.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/ref/Array.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Array/obj/Debug/net5.0/Array.genruntimeconfig.cache

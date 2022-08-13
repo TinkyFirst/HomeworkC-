@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/vladtask2.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/vladtask2.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/vladtask2.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/vladtask2.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/ref/vladtask2.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/bin/Debug/net5.0/vladtask2.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/ref/vladtask2.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtask2/obj/Debug/net5.0/vladtask2.genruntimeconfig.cache

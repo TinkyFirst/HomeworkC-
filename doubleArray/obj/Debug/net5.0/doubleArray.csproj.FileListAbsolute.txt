@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/doubleArray.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/doubleArray.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/doubleArray.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/doubleArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/ref/doubleArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/bin/Debug/net5.0/doubleArray.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/ref/doubleArray.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/doubleArray/obj/Debug/net5.0/doubleArray.genruntimeconfig.cache

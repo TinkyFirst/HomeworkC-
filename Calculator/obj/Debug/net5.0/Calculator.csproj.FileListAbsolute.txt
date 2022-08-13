@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/Calculator.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/Calculator.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/Calculator.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/ref/Calculator.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/bin/Debug/net5.0/Calculator.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/ref/Calculator.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/Calculator/obj/Debug/net5.0/Calculator.genruntimeconfig.cache

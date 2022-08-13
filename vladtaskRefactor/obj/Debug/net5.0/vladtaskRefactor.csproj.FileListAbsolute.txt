@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/vladtaskRefactor.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/vladtaskRefactor.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/vladtaskRefactor.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/vladtaskRefactor.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/ref/vladtaskRefactor.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/bin/Debug/net5.0/vladtaskRefactor.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/ref/vladtaskRefactor.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/vladtaskRefactor/obj/Debug/net5.0/vladtaskRefactor.genruntimeconfig.cache

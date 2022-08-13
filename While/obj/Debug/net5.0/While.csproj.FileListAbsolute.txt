@@ -1,0 +1,15 @@
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/While.deps.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/While.runtimeconfig.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/While.runtimeconfig.dev.json
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/While.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/ref/While.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/bin/Debug/net5.0/While.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.csproj.AssemblyReference.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.GeneratedMSBuildEditorConfig.editorconfig
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.AssemblyInfoInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.AssemblyInfo.cs
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.csproj.CoreCompileInputs.cache
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/ref/While.dll
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.pdb
+/Users/andreypopovich/RiderProjects/ConsoleApp1/While/obj/Debug/net5.0/While.genruntimeconfig.cache
