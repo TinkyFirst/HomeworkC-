@@ -39,7 +39,8 @@ namespace classtask
             Console.WriteLine(user.Name);
             Console.WriteLine(user.Id);
             Console.WriteLine(user.Age);
-            Console.WriteLine(user.Sex);
+            Console.WriteLine(user.Sex); 
+            
         }
 
         /*public static List<User> GetMans(List<User> users)
