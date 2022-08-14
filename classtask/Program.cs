@@ -42,7 +42,7 @@ namespace classtask
 
             };
             
-            var users = new List<User>() { user1};
+            var users = new List<User>() { user1, user2};
             var womanList = GetBySex(users, Sex.Woman);
             var mansList = GetBySex(users, Sex.Man);
             var moreThan21 = GetByAge(users, 21);
@@ -169,10 +169,10 @@ namespace classtask
                 switch (user.Role)
                {
                     case Role.User:
-                        PrintUser(user, Role.User);
+                        PrintUser(user, Role.User, users);
                         break;
                     case Role.Admin:
-                        PrintUser(user, Role.Admin);
+                        PrintUser(user, Role.Admin, users);
                         break;
                 }
             }
@@ -246,7 +246,7 @@ namespace classtask
        }
 
 
-        public static void PrintUser(User user, Role role)
+        public static void PrintUser(User user, Role role, List<User> users)
         {
             
                 Console.WriteLine($"Your name {user.Name}");
@@ -259,15 +259,22 @@ namespace classtask
                 if (role == Role.Admin)
                 {
                     Console.WriteLine($"Your id {user.Id}");
+                    PrintUserList(users);
                 }
             
         }
-        public static void PrintAdmin(List<User> users)
+        public static void PrintAdmin(User user, List<User> users)
         {
+            PrintUser(user, Role.Admin, users);
+            
+        }
+
+        public static void PrintUserList(List<User> users)
+        {
+            Console.WriteLine("List registered users");
             foreach (var user in users)
             {
-                PrintUser(user, Role.Admin);
-                
+                Console.WriteLine(user.Name);
             }
         }
     }
