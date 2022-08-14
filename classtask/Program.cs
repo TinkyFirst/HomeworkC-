@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace classtask
 {
@@ -20,6 +21,22 @@ namespace classtask
                 UserName = "vetrov",
                 Role = Role.Admin,
                 Password = 12345,
+                
+
+
+            };
+            var user2 = new User()
+            {
+                Name = "Andrii",
+                Age = 20,
+                Sex = Sex.Man,
+                City = new City
+                {
+                    Name = "Chernivtsi",
+                },
+                UserName = "andriirsee",
+                Role = Role.User,
+                Password = 54321,
                 
 
 
@@ -147,6 +164,18 @@ namespace classtask
             {
                 SelectLoginMethod(users, choice);
             }
+            else
+            {
+                switch (user.Role)
+               {
+                    case Role.User:
+                        PrintUser(user, Role.User);
+                        break;
+                    case Role.Admin:
+                        PrintUser(user, Role.Admin);
+                        break;
+                }
+            }
         }
 
         public static User Register(List<User> users)
@@ -213,9 +242,33 @@ namespace classtask
                 }
 
             }
-
             return null;
-          
+       }
+
+
+        public static void PrintUser(User user, Role role)
+        {
+            
+                Console.WriteLine($"Your name {user.Name}");
+                Console.WriteLine($"Your nickname {user.UserName}");
+                Console.WriteLine($"Your age {user.Age}");
+                Console.WriteLine($"Your role {user.Role}");
+                Console.WriteLine($"Your sex {user.Sex}");
+                Console.WriteLine($"Your city {user.City.Name}");
+
+                if (role == Role.Admin)
+                {
+                    Console.WriteLine($"Your id {user.Id}");
+                }
+            
+        }
+        public static void PrintAdmin(List<User> users)
+        {
+            foreach (var user in users)
+            {
+                PrintUser(user, Role.Admin);
+                
+            }
         }
     }
 }
