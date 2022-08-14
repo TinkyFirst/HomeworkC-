@@ -7,5 +7,6 @@ namespace classtask
         public Guid id { get; set; } = Guid.NewGuid();
         public string Name { get; set; }
         public double Square { get; set; }
+        public Role Role { get; set; }
     }
 }
