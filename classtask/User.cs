@@ -11,6 +11,6 @@ namespace classtask
         public Role Role { get; set; }
         public uint Age { get; set; }
         public Sex Sex { get; set; }
-        public City City{get; set; }
+        public City City {get; set; }
     }
 }
