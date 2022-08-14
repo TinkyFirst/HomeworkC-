@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 
 namespace classtask
 {
@@ -24,8 +25,24 @@ namespace classtask
 
 
             };
+            var user2 = new User()
+            {
+                Name = "Andrii",
+                Age = 20,
+                Sex = Sex.Man,
+                City = new City
+                {
+                    Name = "Chernivtsi",
+                },
+                UserName = "andriirsee",
+                Role = Role.User,
+                Password = 54321,
+                
+
+
+            };
             
-            var users = new List<User>() { user1};
+            var users = new List<User>() { user1, user2};
             var womanList = GetBySex(users, Sex.Woman);
             var mansList = GetBySex(users, Sex.Man);
             var moreThan21 = GetByAge(users, 21);
@@ -147,6 +164,18 @@ namespace classtask
             {
                 SelectLoginMethod(users, choice);
             }
+            else
+            {
+                switch (user.Role)
+               {
+                    case Role.User:
+                        PrintUser(user, Role.User, users);
+                        break;
+                    case Role.Admin:
+                        PrintUser(user, Role.Admin, users);
+                        break;
+                }
+            }
         }
 
         public static User Register(List<User> users)
@@ -213,9 +242,40 @@ namespace classtask
                 }
 
             }
-
             return null;
-          
+       }
+
+
+        public static void PrintUser(User user, Role role, List<User> users)
+        {
+            
+                Console.WriteLine($"Your name {user.Name}");
+                Console.WriteLine($"Your nickname {user.UserName}");
+                Console.WriteLine($"Your age {user.Age}");
+                Console.WriteLine($"Your role {user.Role}");
+                Console.WriteLine($"Your sex {user.Sex}");
+                Console.WriteLine($"Your city {user.City.Name}");
+
+                if (role == Role.Admin)
+                {
+                    Console.WriteLine($"Your id {user.Id}");
+                    PrintUserList(users);
+                }
+            
+        }
+        public static void PrintAdmin(User user, List<User> users)
+        {
+            PrintUser(user, Role.Admin, users);
+            
+        }
+
+        public static void PrintUserList(List<User> users)
+        {
+            Console.WriteLine("List registered users");
+            foreach (var user in users)
+            {
+                Console.WriteLine(user.Name);
+            }
         }
     }
 }
