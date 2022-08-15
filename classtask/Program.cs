@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 
 namespace classtask
@@ -37,11 +38,7 @@ namespace classtask
             };
 
             var users = new List<User>() { user1, user2 };
-            var womanList = GetBySex(users, Sex.Woman);
-            var mansList = GetBySex(users, Sex.Man);
-            var moreThan21 = GetByAge(users, 21);
-            var sortedUsers = SortByAge(users);
-            var selectedCity = selectByCity(users, "Chernivtsi");
+
             Console.WriteLine("You are registered?");
 
             Console.WriteLine("Write 1 in console if you not registed");
@@ -61,84 +58,6 @@ namespace classtask
             }
         }
 
-        /*public static List<User> GetMans(List<User> users)
-        {
-            var mansList = new List<User>();
-            foreach (var user in users)
-            {
-                if (user.Sex == Sex.Man)
-                {
-                    mansList.Add(user);
-                }
-            }
-
-            return mansList;
-        }
-
-        public static List<User> GetWoman(List<User> users)
-        {
-            var womanList = new List<User>();
-            foreach (var user in users)
-            {
-                if (user.Sex == Sex.Woman)
-                {
-                    womanList.Add(user);
-                }
-            }
-
-            return womanList;
-        }*/
-
-        public static List<User> GetBySex(List<User> users, Sex sex)
-        {
-            var separatedUsers = new List<User>();
-            foreach (var user in users)
-            {
-                if (user.Sex == sex)
-                {
-                    separatedUsers.Add(user);
-                }
-            }
-
-            return separatedUsers;
-        }
-
-        public static List<User> GetByAge(List<User> users, uint age)
-        {
-            var ageList = new List<User>();
-            foreach (var user in users)
-            {
-                if (user.Age >= age)
-                {
-                    ageList.Add(user);
-                }
-            }
-
-            return ageList;
-        }
-
-        public static List<User> SortByAge(List<User> users)
-        {
-            var sortedUsers = users
-                .OrderBy(x => x.Age)
-                .ToList();
-
-            return sortedUsers;
-        }
-
-        public static List<User> selectByCity(List<User> users, string city)
-        {
-            var selectedCity = new List<User>();
-            foreach (var user in users)
-            {
-                if (user.City.Name == city)
-                {
-                    selectedCity.Add(user);
-                }
-            }
-
-            return selectedCity;
-        }
 
         public static void SelectLoginMethod(List<User> users, int choice)
         {
@@ -162,10 +81,10 @@ namespace classtask
                 switch (user.Role)
                 {
                     case Role.User:
-                        PrintUser(user, Role.User, users);
+                        PrintUser(user, Role.User);
                         break;
                     case Role.Admin:
-                        PrintUser(user, Role.Admin, users);
+                        PrintUser(user, Role.Admin);
                         AdminPanel(users);
                         break;
                 }
@@ -194,15 +113,22 @@ namespace classtask
             Console.WriteLine("Write your password");
             var newPassword = int.Parse(Console.ReadLine());
 
+
             Sex selectedSex;
-            if (newSex == 1)
+           
+                 switch (newSex)
             {
-                selectedSex = Sex.Man;
+                case 1:
+                    selectedSex = Sex.Man;
+                    break;
+                case 2:
+                    selectedSex = Sex.Woman;
+                    break;
+                default:
+                    selectedSex = Sex.None;
+                    break;
             }
-            else
-            {
-                selectedSex = Sex.Woman;
-            }
+                 
 
             var newUser = new User
             {
@@ -240,7 +166,7 @@ namespace classtask
         }
 
 
-        public static void PrintUser(User user, Role role, List<User> users)
+        public static void PrintUser(User user, Role role)
         {
             Console.WriteLine($"Your name {user.Name}");
             Console.WriteLine($"Your nickname {user.UserName}");
@@ -255,10 +181,6 @@ namespace classtask
             }
         }
 
-        public static void PrintAdmin(User user, List<User> users)
-        {
-            PrintUser(user, Role.Admin, users);
-        }
 
         public static void PrintUserList(List<User> users)
         {
@@ -266,7 +188,7 @@ namespace classtask
             var nmb = 0;
             foreach (var user in users)
             {
-                Console.WriteLine(user.Name + " #" + nmb +"\t id  "+ user.Id);
+                Console.WriteLine(user.Name + " #" + nmb + "\t id  " + user.Id);
                 nmb++;
             }
         }
@@ -283,7 +205,7 @@ namespace classtask
             {
                 case 1:
                     PrintUserList(users);
-                    DeleteUser(1, users);
+                    DeleteUser(choice, users);
                     PrintUserList(users);
                     break;
                 case 2:
@@ -293,18 +215,10 @@ namespace classtask
             }
         }
 
-        public static List<User> DeleteUser(int choice, List<User> users)
+        public static void DeleteUser(int choice, List<User> users)
         {
-            
-            switch (choice)
-            {
-                case 1:
-                    choice = int.Parse(Console.ReadLine());
-                    users.Remove(users[choice]);
-                    return users;
-            }
-            return users;
+            choice = int.Parse(Console.ReadLine());
+            users.Remove(users[choice]);
         }
-        
     }
 }

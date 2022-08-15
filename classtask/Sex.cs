@@ -2,6 +2,6 @@ namespace classtask
 {
     public enum Sex
     {
-        Man,Woman
+        Man,Woman,None,
     }
 }
