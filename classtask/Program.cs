@@ -198,7 +198,7 @@ namespace classtask
                 Role = Role.User,
             };
             users.Add(newUser);
-            File.WriteAllText("userdata.json", JsonConvert.SerializeObject(users));
+            WriteJson(users);
             return newUser;
             
         }
@@ -283,8 +283,15 @@ namespace classtask
                 case 1:
                     choice = int.Parse(Console.ReadLine());
                     users.Remove(users[choice]);
+                    WriteJson(users);
                     return;
             }
+           
+        }
+
+        public static void WriteJson(List<User> users)
+        {
+            File.WriteAllText("userdata.json", JsonConvert.SerializeObject(users));
         }
         
         
