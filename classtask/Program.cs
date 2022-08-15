@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
+using System.Text.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 
 namespace classtask
@@ -9,34 +13,11 @@ namespace classtask
     {
         static void Main(string[] args)
         {
-            var user1 = new User()
-            {
-                Name = "Vlad",
-                Age = 20,
-                Sex = Sex.Man,
-                City = new City
-                {
-                    Name = "Chernivtsi",
-                },
-                UserName = "vetrov",
-                Role = Role.Admin,
-                Password = 12345,
-            };
-            var user2 = new User()
-            {
-                Name = "Andrii",
-                Age = 20,
-                Sex = Sex.Man,
-                City = new City
-                {
-                    Name = "Chernivtsi",
-                },
-                UserName = "andriirsee",
-                Role = Role.User,
-                Password = 54321,
-            };
+            string usersJsonData = File.ReadAllText("userdata.json");
+            var users = JsonSerializer.Deserialize<List<User>>(usersJsonData);
 
-            var users = new List<User>() { user1, user2 };
+
+
             var womanList = GetBySex(users, Sex.Woman);
             var mansList = GetBySex(users, Sex.Man);
             var moreThan21 = GetByAge(users, 21);
@@ -193,7 +174,6 @@ namespace classtask
 
             Console.WriteLine("Write your password");
             var newPassword = int.Parse(Console.ReadLine());
-
             Sex selectedSex;
             if (newSex == 1)
             {
@@ -218,7 +198,9 @@ namespace classtask
                 Role = Role.User,
             };
             users.Add(newUser);
+            File.WriteAllText("userdata.json", JsonConvert.SerializeObject(users));
             return newUser;
+            
         }
 
         public static User Login(List<User> users)
@@ -255,10 +237,10 @@ namespace classtask
             }
         }
 
-        public static void PrintAdmin(User user, List<User> users)
-        {
-            PrintUser(user, Role.Admin, users);
-        }
+        // public static void PrintAdmin(User user, List<User> users)
+        // {
+        //     PrintUser(user, Role.Admin, users);
+        // }
 
         public static void PrintUserList(List<User> users)
         {
@@ -278,7 +260,6 @@ namespace classtask
             Console.WriteLine("Write 2 for add user");
 
             var choice = int.Parse(Console.ReadLine());
-
             switch (choice)
             {
                 case 1:
@@ -291,9 +272,10 @@ namespace classtask
                     PrintUserList(users);
                     break;
             }
+            
         }
 
-        public static List<User> DeleteUser(int choice, List<User> users)
+        public static void DeleteUser(int choice, List<User> users)
         {
             
             switch (choice)
@@ -301,10 +283,10 @@ namespace classtask
                 case 1:
                     choice = int.Parse(Console.ReadLine());
                     users.Remove(users[choice]);
-                    return users;
+                    return;
             }
-            return users;
         }
+        
         
     }
 }
