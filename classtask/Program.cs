@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using Newtonsoft.Json;
-using System.Text.Json;
 using JsonSerializer = System.Text.Json.JsonSerializer;
-using System.Runtime.InteropServices;
 
 
 namespace classtask
@@ -16,7 +13,7 @@ namespace classtask
         {
             string usersJsonData = File.ReadAllText("userdata.json");
             var users = JsonSerializer.Deserialize<List<User>>(usersJsonData);
-            
+
             Console.WriteLine("You are registered?");
 
             Console.WriteLine("Write 1 in console if you not registed");
@@ -24,7 +21,6 @@ namespace classtask
             int selectedChoice = int.Parse(Console.ReadLine());
             SelectLoginMethod(users, selectedChoice);
         }
-        
 
 
         public static void SelectLoginMethod(List<User> users, int choice)
@@ -49,10 +45,10 @@ namespace classtask
                 switch (user.Role)
                 {
                     case Role.User:
-                        PrintUser(user, Role.User, users);
+                        PrintUser(user, Role.User);
                         break;
                     case Role.Admin:
-                        PrintUser(user, Role.Admin, users);
+                        PrintUser(user, Role.Admin);
                         AdminPanel(users);
                         break;
                 }
@@ -67,10 +63,23 @@ namespace classtask
             Console.WriteLine("Write your age");
             var newAge = uint.Parse(Console.ReadLine());
 
-            Console.WriteLine("Write your sex");
-            Console.WriteLine("Write 1 if you Man");
-            Console.WriteLine("Write 2 if you Women");
-            var newSex = int.Parse(Console.ReadLine());
+
+            int newSex = 1;
+            do
+            {
+                Console.WriteLine("Write your sex");
+                Console.WriteLine("Write 1 if you Man");
+                Console.WriteLine("Write 2 if you Women");
+
+
+                newSex = int.Parse(Console.ReadLine());
+                if (newSex != 1 && newSex != 2)
+                {
+                    Console.WriteLine("uncorrect number");
+                }
+            } while (newSex != 1 && newSex != 2);
+
+            
 
             Console.WriteLine("Write your city");
             var newCity = Console.ReadLine();
@@ -79,12 +88,12 @@ namespace classtask
             var newLogin = Console.ReadLine();
 
             Console.WriteLine("Write your password");
-            var newPassword = int.Parse(Console.ReadLine());
+            var newPassword = Console.ReadLine();
 
 
             Sex selectedSex;
-           
-                 switch (newSex)
+
+            switch (newSex)
             {
                 case 1:
                     selectedSex = Sex.Man;
@@ -96,7 +105,7 @@ namespace classtask
                     selectedSex = Sex.None;
                     break;
             }
-                 
+
 
             var newUser = new User
             {
@@ -114,7 +123,6 @@ namespace classtask
             users.Add(newUser);
             WriteJson(users);
             return newUser;
-            
         }
 
         public static User Login(List<User> users)
@@ -123,7 +131,7 @@ namespace classtask
             var login = Console.ReadLine();
 
             Console.WriteLine("Write your password");
-            var password = int.Parse(Console.ReadLine());
+            var password = Console.ReadLine();
             foreach (var user in users)
             {
                 if (login == user.UserName && password == user.Password)
@@ -150,7 +158,6 @@ namespace classtask
                 Console.WriteLine($"Your id {user.Id}");
             }
         }
-        
 
 
         public static void PrintUserList(List<User> users)
@@ -183,14 +190,13 @@ namespace classtask
                     PrintUserList(users);
                     break;
             }
-            
         }
 
         public static void DeleteUser(int choice, List<User> users)
         {
             choice = int.Parse(Console.ReadLine());
             users.Remove(users[choice]);
-            
+
             switch (choice)
             {
                 case 1:
@@ -199,14 +205,11 @@ namespace classtask
                     WriteJson(users);
                     return;
             }
-           
         }
 
         public static void WriteJson(List<User> users)
         {
             File.WriteAllText("userdata.json", JsonConvert.SerializeObject(users));
         }
-        
-        
     }
 }
