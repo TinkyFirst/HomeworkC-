@@ -91,7 +91,7 @@ namespace classtask
             var newPassword = Console.ReadLine();
 
 
-            Sex selectedSex;
+            Sex selectedSex = Sex.None;
 
             switch (newSex)
             {
@@ -101,10 +101,7 @@ namespace classtask
                 case 2:
                     selectedSex = Sex.Woman;
                     break;
-                default:
-                    selectedSex = Sex.None;
-                    break;
-            }
+         }
 
 
             var newUser = new User
