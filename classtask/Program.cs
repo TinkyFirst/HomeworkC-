@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
+using System.Text.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 using System.Runtime.InteropServices;
 
 
@@ -10,35 +14,9 @@ namespace classtask
     {
         static void Main(string[] args)
         {
-            var user1 = new User()
-            {
-                Name = "Vlad",
-                Age = 20,
-                Sex = Sex.Man,
-                City = new City
-                {
-                    Name = "Chernivtsi",
-                },
-                UserName = "vetrov",
-                Role = Role.Admin,
-                Password = 12345,
-            };
-            var user2 = new User()
-            {
-                Name = "Andrii",
-                Age = 20,
-                Sex = Sex.Man,
-                City = new City
-                {
-                    Name = "Chernivtsi",
-                },
-                UserName = "andriirsee",
-                Role = Role.User,
-                Password = 54321,
-            };
-
-            var users = new List<User>() { user1, user2 };
-
+            string usersJsonData = File.ReadAllText("userdata.json");
+            var users = JsonSerializer.Deserialize<List<User>>(usersJsonData);
+            
             Console.WriteLine("You are registered?");
 
             Console.WriteLine("Write 1 in console if you not registed");
@@ -46,17 +24,7 @@ namespace classtask
             int selectedChoice = int.Parse(Console.ReadLine());
             SelectLoginMethod(users, selectedChoice);
         }
-
-        public static void PrintUsers(List<User> listUsers)
-        {
-            foreach (var user in listUsers)
-            {
-                Console.WriteLine(user.Name);
-                Console.WriteLine(user.Id);
-                Console.WriteLine(user.Age);
-                Console.WriteLine(user.Sex);
-            }
-        }
+        
 
 
         public static void SelectLoginMethod(List<User> users, int choice)
@@ -81,10 +49,10 @@ namespace classtask
                 switch (user.Role)
                 {
                     case Role.User:
-                        PrintUser(user, Role.User);
+                        PrintUser(user, Role.User, users);
                         break;
                     case Role.Admin:
-                        PrintUser(user, Role.Admin);
+                        PrintUser(user, Role.Admin, users);
                         AdminPanel(users);
                         break;
                 }
@@ -144,7 +112,9 @@ namespace classtask
                 Role = Role.User,
             };
             users.Add(newUser);
+            WriteJson(users);
             return newUser;
+            
         }
 
         public static User Login(List<User> users)
@@ -180,6 +150,7 @@ namespace classtask
                 Console.WriteLine($"Your id {user.Id}");
             }
         }
+        
 
 
         public static void PrintUserList(List<User> users)
@@ -200,7 +171,6 @@ namespace classtask
             Console.WriteLine("Write 2 for add user");
 
             var choice = int.Parse(Console.ReadLine());
-
             switch (choice)
             {
                 case 1:
@@ -213,12 +183,30 @@ namespace classtask
                     PrintUserList(users);
                     break;
             }
+            
         }
 
         public static void DeleteUser(int choice, List<User> users)
         {
             choice = int.Parse(Console.ReadLine());
             users.Remove(users[choice]);
+            
+            switch (choice)
+            {
+                case 1:
+                    choice = int.Parse(Console.ReadLine());
+                    users.Remove(users[choice]);
+                    WriteJson(users);
+                    return;
+            }
+           
         }
+
+        public static void WriteJson(List<User> users)
+        {
+            File.WriteAllText("userdata.json", JsonConvert.SerializeObject(users));
+        }
+        
+        
     }
 }
